@@ -1,0 +1,18 @@
+<div>
+    
+
+</div>
+
+<form [formGroup]="calculatorFrom">
+
+    <label for="issue-date" class="form-label">First Name: </label>
+    <input id="issue-date" type="text" formControlName="issueDate" required>
+  
+    <label for="ReturnDate">Last Name: </label>
+    <input id="ReturnDate" type="text" formControlName="returnDate" required>
+
+    <Select ormControlName="countries" required >
+        <Option>Pakistan</Option>
+    </Select>
+    <button class="Button Primary">Submit</button>
+  </form>
